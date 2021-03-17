@@ -131,6 +131,14 @@ table{
     font-family: cursive;
 }
 
+.footer-common{
+    text-align: center;
+    margin-top: 18%;
+    margin-bottom: 1px;
+    font-family: cursive;
+    color: darkgray;
+}
+
 @media only screen and (max-width: 1024px){
     table, thead, tbody, th, td, tr{
         display: block;
