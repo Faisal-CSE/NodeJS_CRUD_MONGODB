@@ -66,7 +66,7 @@ a {
 }
 
 .text-gradient{
-    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    background: linear-gradient(to right, #8e2de2, #37e000);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,6 +96,7 @@ a {
 a#allUser{
     font-size: 1em;
     padding: .5em 1em;
+    font-family: cursive;
 }
 
 table{
@@ -117,7 +118,8 @@ table{
 }
 
 .table tr:hover{
-    background-color:#06d6a0 ;
+    /* background-color:#ffffe6; */
+    background-color:#e6ffe6;
 }
 
 .table tr:hover td > a{
@@ -133,7 +135,7 @@ table{
 
 .footer-common{
     text-align: center;
-    margin-top: 18%;
+    margin-top: 8%;
     margin-bottom: 1px;
     font-family: cursive;
     color: darkgray;
@@ -238,10 +240,10 @@ table{
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color:#16db93; 
+    background-color: #7a90b7;; 
     border: none;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 1em;
+    font-family: cursive;
+    font-size: 1.08em;
     cursor: pointer;
     border-radius: .2em;
     margin: .5em 0;
@@ -249,6 +251,6 @@ table{
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover{
-    background-color: var(--dark);
+    background-color: #2b4a80;
     color: var(--border);
 }
