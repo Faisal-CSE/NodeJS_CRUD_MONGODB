@@ -1,3 +1,24 @@
 
+
+    
+    
+    <footer class="footer-common">
+        &copy; Copyright <span id="currentYear"></span> || Testing Project
+    </footer>
+
+    <script src="js/jquery-2.0.2.js"></script>
+    <script>
+        $(document).ready(function(){
+            getDateFunction();
+        });
+
+        function getDateFunction() {
+          var d = new Date();
+          var n = d.getFullYear();
+          document.getElementById("currentYear").innerHTML = n;
+        }
+    </script>
+
 </body>
+
 </html>
